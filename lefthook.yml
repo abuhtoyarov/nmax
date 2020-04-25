@@ -1,0 +1,10 @@
+pre-commit:
+  parallel: true
+  commands:
+    rspec:
+      tags: test
+      un: bundle exec rspec
+    rubocop:
+      tags: code style
+      glob: '*.rb'
+      run: bundle exec rubocop --safe-auto-correct {staged_files}
