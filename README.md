@@ -1,5 +1,7 @@
 # Nmax
 
+[![abuhtoyarov](https://circleci.com/gh/abuhtoyarov/nmax.svg?style=svg)](https://circleci.com/gh/abuhtoyarov/nmax)
+
 This gem is needed to deduce n largest numbers from the text.
 
 ## Installation
