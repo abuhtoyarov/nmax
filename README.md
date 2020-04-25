@@ -1,15 +1,13 @@
 # Nmax
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/nmax`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem is needed to deduce n largest numbers from the text.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'nmax'
+gem 'nnmax'
 ```
 
 And then execute:
@@ -18,11 +16,11 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install nmax
+    $ gem install nnmax
 
 ## Usage
 
-TODO: Write usage instructions here
+echo " 50 Hello 10 World 1" | nmax 2
 
 ## Development
 
@@ -32,7 +30,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/nmax. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/nmax/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/abuhtoyarov/nmax. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/abuhtoyarov/nmax/blob/master/CODE_OF_CONDUCT.md).
 
 
 ## License
